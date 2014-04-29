@@ -1,0 +1,13 @@
+{
+  "main": "index.html",
+  "name": "servekit",
+  "description": "A static file server",
+  "version": "0.1.0",
+  "window": {
+    "title": "ServeKit",
+    "toolbar": false,
+    "frame": true,
+    "width": 700,
+    "height": 350
+  }
+}

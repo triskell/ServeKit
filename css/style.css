@@ -1,0 +1,164 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+    font-family: "Exo", sans-serif;
+}
+
+a{
+    color: #787772;
+}
+
+a:hover{
+    color: #D8D7D2;
+}
+
+h1{
+    margin: 0;
+    margin-left : 10px;
+}
+
+
+#drop{
+    position: absolute;
+    
+    top: 20px;
+    bottom: 20px;
+    right: 40px;
+    
+    margin:0;
+    padding:0;
+    
+    width: 45%;
+    
+    text-align: center;
+    font-size: 30px;
+    color: #CCC;
+    line-height: 285px;
+    
+    border-radius: 30px;
+    border: 10px dashed #CCC;
+}
+
+#drop.dragover{
+    color: #318CE7;
+    border-color: #318CE7;
+}
+
+#panel{
+    position: absolute;
+    
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    
+    margin:0;
+    padding:0;
+
+    
+    width: 40%;
+
+    background-color: #282722;
+    color : #C8C7C2;
+}
+
+#links{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.actions{
+    float: right;
+}
+
+.actions a{
+    margin-left: 10px;
+}
+
+.link{
+    padding : 10px;
+}
+
+.link:hover{
+    background-color: #181712;
+}
+
+.home{
+    color: #318CE7;
+}
+
+#status{
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #181712;
+}
+
+#setup{
+   float: right;
+   margin-left: 10px;
+}
+
+#port input{
+    width: 80px;
+}
+
+.check:hover{
+    color: #13A100;
+}
+
+.remove:hover{
+    color: #F00;
+}
+
+/*
+*   DISABLED
+*/
+.disabled{
+    color: #585752;
+}
+.disabled:hover{
+    color: #585752;
+}
+
+/*
+*   MODAL
+*/
+
+/*.modal{
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    
+    background-color : #FFF;
+    
+    border-radius: 3px;
+    border: 1px solid #CCC;
+}
+
+
+#setup{
+    padding: 20px;
+}
+
+#options{
+    padding : 20px;
+}*/
+
+/*
+*   FONTS
+*/
+
+@font-face {
+  font-family: "Exo";
+  src: url(../fonts/Exo-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Exo-Bold";
+  src: url(../fonts/Exo-Bold.otf) format("opentype");
+}
